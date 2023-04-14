@@ -10,7 +10,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
 }
 
 .page-wrapper {
@@ -20,30 +20,37 @@ body {
 }
 
 h1 {
-  color: black;
+  color: rgb(200, 0, 0);
   font-family: "Source Sans Pro", sans-serif;
   font-size: 5em;
   letter-spacing: -0.04em;
 }
 
+h2 {
+  color: rgb(200, 0, 0);
+  font-family: "Source Sans Pro", /*sans-serif*/;
+  font-size: 2.5em;
+  letter-spacing: -0.04em;
+}
+
 p {
-  color: rgb(192, 84, 208);
+  color: rgb(0, 255, 0);
   font-family: "Comfortaa", cursive;
   font-size: 1.5em;
   margin: 15px 0;
 }
 
 .divider {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .icon {
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 15px;
   border-radius: 50%;
 }
 
 .icon:hover {
   cursor: pointer;
-  background-color: rgb(192, 84, 208);
+  background-color: rgb(221, 0, 255);
 }
